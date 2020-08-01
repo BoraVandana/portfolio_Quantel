@@ -1,0 +1,145 @@
+﻿/* Add a black background color to the top navigation bar */
+.navlist {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Style the links inside the navigation bar */
+.navlist a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navlist a:hover {
+  background-color: grey;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.navlist a.active {
+  font-color: white;
+  color: grey;
+}
+
+.container1 {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	border-radius:10px;
+	height:280px;
+	width:20%;
+	background-color:#ffe6ee;
+	position:absolute;
+	border-color: black;
+}
+.container2 {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	border-radius:10px;
+	height:280px;
+	width:20%;
+	background-color:#ffe6ee;
+	position:absolute;
+	border-color: black;
+	margin-top:150px;
+}
+
+.vertical { 
+     border-left: 6px solid black; 
+     height: 1000px; 
+     position:absolute; 
+     left: 21%; 
+     top:80px;
+}
+.box1 {
+	margin-left:300px;
+	padding-left:15px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	border-radius:5px;
+	height:250px;
+	width:72%;
+	background-color:#ebeef1;
+	flex-direction: row;
+	display: flex;
+	padding: 2px;
+	margin-top: 2px;
+	position: relative;
+}
+.Image1 {
+	margin-left: 250px;
+	float: right;
+	top:40px;
+	margin-top:0px;
+}
+.box2 {
+	margin-left:300px;
+	padding-left:15px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	border-radius:10px;
+	height:250px;
+	width:72%;
+	background-color:white;
+	flex-direction: row;
+	display: flex;
+	padding: 0px;
+	margin-top: 2px;
+	font-color:black;
+	
+}
+.Image2 {
+	margin-left: 20px;
+	float: right;
+	top:40px;
+	margin-top:0px;
+}
+.checked {
+  color: blue;
+}
+
+.box3 {
+	margin-left:300px;
+	padding-left:15px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	border-radius:10px;
+	height:250px;
+	width:72%;
+	background-color:white;
+	flex-direction: row;
+	display: flex;
+	padding: 2px;
+	margin-top: 2px;
+}
+#list1 li{
+	list-style:none;
+	display:inline;
+	font-size:17px;
+	margin-left:250px;
+	padding:0px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height:50px;
+ 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: blue; 
+  border-radius: 5px;
+}
+
